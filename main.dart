@@ -1,6 +1,8 @@
+import 'string_exe/palindrome_detector.dart';
 import 'string_exe/reverse_chain.dart';
 import 'string_exe/count_vowels.dart';
 import 'string_exe/capitalize_first_letter.dart';
+import 'string_exe/separator_concatenator.dart';
 
 void main() {
 
@@ -13,18 +15,18 @@ void main() {
     // int vowels = countingVowels(cadena);
     // print('You have $vowels vowels in this chain "$cadena"');
 
-    String toCapitalize = 'edgard allan pazos';
-    String capitalized = capitalizeFirstLetter(toCapitalize);
-    print('Capitalized ---> $capitalized');
+    // String toCapitalize = 'edgard allan pazos';
+    // String capitalized = capitalizeFirstLetter(toCapitalize);
+    // print('Capitalized ---> $capitalized');
+
+    // String name = 'Anna';
+    // bool answer = palindromeDetector(name);
+    // print('The word $name is $answer palindrome');
+
+
+    // String symbol = '*+*';
+    // String firstWord = '<--';
+    // String secondWord = '-->';
+    // String result = specialConcatenator(symbol, firstWord, secondWord);
+    // print('Your result is $result');
 }
-
-
-// Pending exercises
-
-// 4.- Determinar si una Cadena es un Palíndromo: Crea un programa que verifique si una cadena es un palíndromo (se lee igual hacia adelante y hacia atrás, ignorando espacios, signos de puntuación y mayúsculas).
-
-// Pista: Podrías usar replaceAll() para eliminar espacios y signos de puntuación, y toLowerCase() para ignorar las mayúsculas. Luego, compara la cadena con su versión invertida.
-
-// 5.- dos Cadenas con un Separador: Escribe un programa que tome dos cadenas y un separador, y las una utilizando el separador proporcionado.
-
-// Pista: Puedes usar el operador + para concatenar cadenas, añadiendo el separador entre ellas.
